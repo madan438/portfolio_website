@@ -1,0 +1,42 @@
+/* Portfolio Section */
+.portfolio {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.bord-bot {
+  width: 80px;
+  height: 4px;
+  background-color: #ff6b6b;
+  margin: 10px auto 30px;
+  border-radius: 2px;
+}
+
+.port-cont {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.port-cont img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 0;
+}
+
+.port-cont:hover img {
+  transform: scale(1.05);
+}
+.img-caption {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
